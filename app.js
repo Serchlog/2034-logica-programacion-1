@@ -7,9 +7,9 @@ let intentos = 1;
 let maximoIntentos = 3;
 
 while(numeroUsuario != numeroSecreto){
-    numeroUsuario = prompt("Me indicas un numero entre 1 y 10 por favor:");
+    numeroUsuario = parseInt(prompt("Me indicas un numero entre 1 y 10 por favor:"));
 
-    console.log(numeroUsuario);
+    console.log(typeof(numeroUsuario));
     /*
     Este código realiza
     la comparación
