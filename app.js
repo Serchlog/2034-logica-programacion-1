@@ -1,8 +1,16 @@
+//Variables
 let numeroSecreto = 6;
-let numeroUsuario = prompt("Me indicas un numero por favor:");
+let numeroUsuario = prompt("Me indicas un numero entre 1 y 10 por favor:");
 
-console.log(númeroUsuario);
-
+console.log(numeroUsuario);
+/*
+Este código realiza
+la comparación
+*/
 if (numeroUsuario == numeroSecreto) {
-        alert('Acertaste el número');
+    //Acertaste, fué verdadera la condición
+    alert('Acertaste el número');
+} else {
+    //La condición no se cumplió
+    alert("Lo siento, no acertaste el número");
 }
